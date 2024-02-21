@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, serif;
+    background:linear-gradient(100deg,black,#253529);
+
+
+}
+
+.navbar{
+    color: whitesmoke;
+}
+.navbar-brand{
+    padding-left: 150px;
+}
+.navbar a{
+    color: whitesmoke;
+}
+
+.navbar-nav{
+    cursor: pointer;
+    border: 2px solid rgb(35, 244, 35);
+    border-radius: 10px;
+    text-align: center;
+    transition: 3s;
+}
+.navbar-toggler{
+    color: black;
+    background-color: whitesmoke;
+}
+.collapse{
+    justify-content: right;
+    padding-right: 200px;
+}
+#name{
+   color: whitesmoke;
+   font-weight: bold;
+   font-family: cursive;
+   animation: slideInUp 1s ease-out;
+
+}
+#vikasyadav{
+    
+    padding-left: 25px;
+    display: inline-block;
+    animation: animate 1s infinite linear;
+    background: linear-gradient(to right,rgb(30, 255, 124),rgb(151, 228, 132));
+    color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 60px rgba(14, 73, 41, 0.459);
+   animation: anime 1s infinite alternate;
+   animation: tada 2s infinite;
+
+
+}
+
+.Info{
+    padding-top: 200px;
+    justify-content: center;
+    text-align: center;
+
+}
+.Profession{
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+#proff{
+    animation: heartbeat 2s infinite; /* Adjust the duration as needed */
+
+}
+
+.carousel-inner{
+    width: 70%;
+    color:whitesmoke;
+    font-family: cursive;
+    border: 2px solid rgb(35, 244, 35);
+    align-items: center;
+    border-radius: 12px;
+    
+}
+#carouselExampleControls{
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Aboutsection{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 200px;
+    
+}
+.Project{
+    padding-top: 100px;
+    color: whitesmoke;
+
+}
+
+.contact{
+    padding-top: 100px;
+    text-align: center;
+    color: whitesmoke;
+}
+.contact h1{
+    padding-bottom: 80px;
+}
+
+.bi-whatsapp{
+    color: #25D366;
+    cursor: pointer;
+}
+.bi-whatsapp:hover{
+    animation: moveAndShake 2s ease-in-out infinite;
+}
+
+.bi-envelope{
+    color: #EA4335;
+    cursor: pointer;
+}
+.bi-envelope:hover{
+    animation: moveAndShake 2s ease-in-out infinite;
+
+}
+.bi-facebook{
+    color:#0165E1;
+    cursor:pointer;
+}
+.bi-facebook:hover{
+    animation: moveAndShake 2s ease-in-out infinite;
+
+}
+.bi-linkedin{
+    color:#0A66C2;
+    cursor: pointer;
+}
+.bi-linkedin:hover{
+    animation: moveAndShake 2s ease-in-out infinite;
+}
+.bi-instagram{
+    color:#E1306C;
+    cursor: pointer;
+}
+.bi-instagram:hover{
+    animation: moveAndShake 2s ease-in-out infinite;
+}
+
+.bi-twitter-x{
+    color: #1DA1F2;
+    cursor: pointer;
+}
+.bi-twitter-x:hover{
+    animation: moveAndShake 2s ease-in-out infinite;
+
+}
+
+
+/* Your existing styles */
+
+/* Add animation for the navigation bar */
+.navbar {
+    color: whitesmoke;
+    animation: fadeInDown 1s ease-out;
+}
+
+/* Add animation for the name and profession */
+#name,
+.Profession {
+    color: whitesmoke;
+    animation: slideInUp 1s ease-out;
+}
+
+/* Add animation for the About section */
+.Aboutsection {
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 200px;
+    animation: fadeIn 1s ease-out;
+}
+
+/* Add animation for the Projects section */
+.Project {
+    padding-top: 100px;
+    text-align: center;
+    color: whitesmoke;
+    animation: fadeIn 1s ease-out;
+}
+
+/* Add animation for the Contact section */
+.contact {
+    padding-top: 100px;
+    text-align: center;
+    color: whitesmoke;
+    animation: fadeIn 1s ease-out;
+}
+
+/* Define animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#brand-name{
+    color:rgb(35, 244, 35);
+    animation: glow 2s infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px rgb(23, 133, 23), 0 0 20px rgb(146, 220, 146), 0 0 30px rgb(12, 110, 12);
+    }
+    50% {
+        text-shadow: 0 0 20px rgb(56, 181, 56), 0 0 30px rgb(0, 223, 0), 0 0 40px rgb(18, 97, 18);
+    }
+    100% {
+        text-shadow: 0 0 10px rgb(43, 225, 43), 0 0 20px rgb(154, 255, 154), 0 0 30px rgb(0, 94, 0);
+    }
+}
+.nav-link:hover{
+    color: rgb(35, 244, 35);
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+
+@keyframes moveAndShake {
+    0%, 100% {
+        transform: translateX(0) rotate(0);
+    }
+    25% {
+        transform: translateX(-5px) rotate(-5deg);
+    }
+    50% {
+        transform: translateX(5px) rotate(5deg);
+    }
+    75% {
+        transform: translateX(-5px) rotate(-5deg);
+    }
+}
+#aboutme{
+    font-family: cursive;
+}
+#contactme{
+    font-family: cursive;
+}
+#projects{
+    font-family: cursive;
+
+}
+#commingsoon{
+    color: #25D366;
+}
+
+
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes bounceIn {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+
+@keyframes rotateFadeIn {
+    from {
+        opacity: 0;
+        transform: rotate(-45deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+}
+
+
+@keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+  @keyframes anime {
+    
+    100%{
+        text-shadow: 0 0 60px rgba(13, 183, 115, 0.807);
+
+    }
+}
+
+
+@keyframes tada {
+    from {
+        transform: scale3d(1, 1, 1);
+    }
+
+    10%, 20% {
+        transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    }
+
+    30%, 50%, 70%, 90% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+
+    40%, 60%, 80% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+
+    to {
+        transform: scale3d(1, 1, 1);
+    }
+}
+.contact a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.carousel-item span{
+    color:rgb(35, 244, 35);
+}
